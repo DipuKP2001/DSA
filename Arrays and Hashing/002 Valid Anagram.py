@@ -1,7 +1,7 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         
-        return sorted(s) == sorted(t) #- Best mtd
+        return sorted(s) == sorted(t) #- Best mtd  
 
         # if (len(s) != len(t)):
         #     return False
